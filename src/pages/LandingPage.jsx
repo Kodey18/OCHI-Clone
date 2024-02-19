@@ -1,13 +1,14 @@
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
+import SideText from '../components/SideText';
 
 const LandingPage = () => {
   return (
     <div className='w-full bg-zinc-900 h-screen pt-8'>
 
-      <div className="IntroText font-roboCond mt-32 pl-14">
+      <div className="IntroText font-roboCond mt-32 ml-14">
 
-        <div className='bg-blue-800 p-1'>
+        <div className='heroText p-1'>
           {
             ["we create", "eye-opening", "presentations"].map((elem, index) => {
 
@@ -18,7 +19,7 @@ const LandingPage = () => {
 
                     {index === 1 && (
                       <div className='mr-1 w-[8vw] ml-1'>
-                        <img className='rounded-md w-full h-full object-cover' src="../public/content-image01.jpg" alt="ppt_img" />
+                        <img className='rounded-md w-full h-full object-cover' src="./content-image01.jpg" alt="ppt_img" />
                       </div>
                     )}
 
@@ -37,7 +38,7 @@ const LandingPage = () => {
 
       </div>
 
-      <div className='border-t-[1px] border-zinc-700 mt-[20vh] flex px-14 pt-4 justify-between items-center'>
+      <div className='border-t-[1px] border-zinc-700 mt-[18vh] flex px-14 pt-4 justify-between items-center'>
 
         <div className='flex-1'>
           For public and private companies

@@ -7,3 +7,12 @@ font-family: 'Roboto Condensed', sans-serif;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(24 24 27);
+}
