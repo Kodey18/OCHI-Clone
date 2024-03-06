@@ -1,10 +1,9 @@
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
-import SideText from '../components/SideText';
 
 const LandingPage = () => {
   return (
-    <div className='w-full bg-zinc-900 h-screen pt-8'>
+    <div className='w-full h-screen pt-8'>
 
       <div className="IntroText font-roboCond mt-32 ml-14">
 
@@ -52,14 +51,18 @@ const LandingPage = () => {
 
           <div className='flex gap-3 items-center'>
 
-            <span className='uppercase border border-zinc-400 px-3 py-1 rounded-[20px] hover:bg-white hover:text-black'>
+            <span 
+              className='uppercase border border-zinc-400 px-3 py-1 rounded-[20px] hover:bg-white hover:text-black'
+            >
               start the project
             </span>
 
-            <span className='p-2 rounded-[20px] border border-zinc-400 hover:bg-white hover:text-black'>
+            <span 
+              className='p-2 rounded-[20px] border border-zinc-400 hover:bg-white hover:text-black'
+            >
               <MdArrowOutward />
             </span>
-
+            
           </div>
 
         </div>
